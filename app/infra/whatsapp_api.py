@@ -16,7 +16,7 @@ class WhatsAppAPIClient:
 
         payload = {
             "number": number,
-            "mentionsEveryOne": True,
+            "mentionsEveryOne": False,
             "text": text
         }
 
