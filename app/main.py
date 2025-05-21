@@ -1,5 +1,4 @@
 if __name__ == "__main__":
-
     import schedule
     import time
     from app import WhatsAppBotApp
@@ -10,7 +9,6 @@ if __name__ == "__main__":
         app.send_test_message(text)
 
     schedule.every().day.at("09:00").do(job)
-
     print("Bot agendado para enviar promoções todos os dias às 09:00.")
 
     while True:
