@@ -18,7 +18,7 @@ class WhatsAppBotApp:
         queryParams = {
             "key": api_key,
             "country": "BR",
-            "sort": "-cut",
+            "sort": "-trending",
             "nondeals": False,
             "shops": "61,50,35,16"
         }
