@@ -19,8 +19,7 @@ class WhatsAppBotApp:
             "key": api_key,
             "country": "BR",
             "sort": "-trending",
-            "nondeals": False,
-            "shops": "61,50,35,16"
+            "nondeals": False
         }
 
         response = requests.get(url, params=queryParams)
