@@ -3,9 +3,7 @@ if __name__ == "__main__":
     import time
     from app import WhatsAppBotApp
     
-    app = WhatsAppBotApp()
-    text = app.get_top_deals()
-    app.send_test_message(text)
+
     def job():
         app = WhatsAppBotApp()
         text = app.get_top_deals()
